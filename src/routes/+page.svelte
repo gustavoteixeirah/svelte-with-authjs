@@ -16,9 +16,9 @@
 		{JSON.stringify($page.data.session, null, 2)}
 	</pre>
 {:else}
-	<button on:click={() => signIn()}>
+	<a href="/login">
 		Sign in
-	</button>
+	</a>
 {/if}
 <h2>Admin access only</h2>
 <a href="/admin">click here</a>
